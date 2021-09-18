@@ -32,3 +32,10 @@ cd ..
 cd odoo14
 docker-compose up -d
 ```
+
+# Step 4 - Run App Home
+```
+cd ..
+cd homeapp
+docker-compose up -d
+```
