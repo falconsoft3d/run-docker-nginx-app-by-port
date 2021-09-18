@@ -20,6 +20,10 @@ sudo docker–compose --version
 
 # Step 2 - Install Odoo 13 in port 8181
 ```
+git clone https://github.com/falconsoft3d/run-docker-nginx-app-by-port
+cd run-docker-nginx-app-by-port
+cd odoo13
+docker-compose up -d
 ```
 
 # Step 3 - Install Odoo 14 in port 7272
