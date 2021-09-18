@@ -13,6 +13,8 @@ services:
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
       - ./addons-customize:/mnt/extra-addons-customize
+    environment:
+      - "VIRTUAL_HOST=odoo13.marlonfalcon.com"
     entrypoint: "/usr/bin/odoo -c /etc/odoo/odoo.conf"
   db:
     container_name: ${DB_HOST}
