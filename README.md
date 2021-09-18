@@ -2,9 +2,9 @@
 ```
                   +--- host --------> node.js on localhost:8080
                   |
-users --> nginx --|--- host/odoo13 ---> odoo on localhost:8181
+users --> nginx --|--- host/odoo13 ---> odoo on localhost:8013
                   |
-                  +--- host/odoo14 ---> odoo on localhost:7272
+                  +--- host/odoo14 ---> odoo on localhost:8014
 ```
 
 # Step 1 - Install Docker
