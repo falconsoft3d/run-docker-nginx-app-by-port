@@ -10,4 +10,4 @@ services:
       volumes:
             - .:/usr/src/app
       environment:
-            - "VIRTUAL_HOST=homeapp.marlonfalcon.com"
+            - VIRTUAL_HOST=homeapp.marlonfalcon.com
