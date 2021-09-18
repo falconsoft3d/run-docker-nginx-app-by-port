@@ -7,7 +7,7 @@ users --> nginx --|--- host/odoo13 ---> odoo on localhost:8181
                   +--- host/odoo14 ---> odoo on localhost:8181
 ```
 
-Sept 1 - Install Docker
+# Step 1 - Install Docker
 ```
 apt-get update && apt-get upgrade -y
 apt  install docker.io docker-compose -y
