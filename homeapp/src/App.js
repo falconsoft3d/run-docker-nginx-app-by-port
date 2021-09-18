@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <h1>Docker Ngix Odoo React Apps</h1>
+       <img src="/odoo_logo.png"/>
+       <div><a href="/odoo13" target="_blank">Odoo 13</a></div>
+       <div><a href="/odoo14" target="_blank">Odoo 14</a></div>
     </div>
   );
 }
