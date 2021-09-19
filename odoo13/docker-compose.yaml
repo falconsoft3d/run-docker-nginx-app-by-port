@@ -16,6 +16,7 @@ services:
     environment:
       - VIRTUAL_HOST=odoo13.marlonfalcon.com
     entrypoint: "/usr/bin/odoo -c /etc/odoo/odoo.conf"
+    restart: always
   db:
     container_name: ${DB_HOST}
     image: ${DB_IMAGE}:${DB_TAG}
@@ -28,6 +29,7 @@ services:
       - "${DB_PORT}:5432"
     volumes:
       - odoo-db-data:/var/lib/postgresql/data/pgdata
+    restart: always
 volumes:
   odoo-db-data:
   odoo-web-data:
